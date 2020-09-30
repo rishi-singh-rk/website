@@ -41,23 +41,21 @@ h1{
 }
 h2
 {
-    padding-top: 3%;
-    font-size: 180%;
-    text-align: center;
-    margin-bottom: ;
-    word-spacing: 2px;
-    font-weight: 300;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-}
-h2:after{
-    display: block;
+    
+     display: block;
     background-color: #e67e22;
     height: 2px;
     content: " ";
     width: 100px;
     margin: 0 auto;
     margin-top: 30px;
+}
+h2:after{
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 .current{
     padding-right: 20px;
@@ -66,13 +64,14 @@ h2:after{
 }
 .btn:link,
 .btn:visited{
-    display: inline-block;
+    padding-top: 3%;
+    font-size: 180%;
+    text-align: center;
+    margin-bottom: ;
+    word-spacing: 2px;
     font-weight: 300;
-    padding: 10px 30px;
-    text-decoration: none;
-    color: antiquewhite;
-    border-radius: 20px;
-    transition:background-color 0.2s, color 0.2s;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
 .btn:hover,
 .btn:active{
@@ -120,8 +119,8 @@ h2:after{
     border-bottom: 2px solid #e67e22;
 }
 .start{
-    word-spacing: 2px;
-    letter-spacing: 1px;
+    word-spacing: 1px;
+    letter-spacing: 2px;
     margin-left: 15%;
     text-align: center;
     margin-bottom: 5%;
@@ -134,7 +133,7 @@ h2:after{
     text-align: center;
 }
 .box{
-    padding:20px;
+    padding:10px;
 }
 .image{
     list-style: none;
